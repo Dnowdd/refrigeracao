@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div>
+            <img src="logo.png" alt="">
+        </div>
+        <ul>
+            <li class="active">Home</li>
+            <li>Serviços</li>
+            <li>Contato</li>
+        </ul>
+    </header>
+
+    <div class="scroller">
+        <div id="scroller"></div>
+    </div>
+
+    <main>
+        <svg id="visual" viewBox="0 0 1920 1080" class="blob" width="1920" height="1080" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <g transform="translate(1920, 0)">
+                <path d="M0 918C-79.2 862.5 -158.4 807 -254.9 784.6C-351.4 762.3 -465.2 773.1 -520.8 716.8C-576.4 660.5 -573.7 537.2 -633.5 460.2C-693.2 383.3 -815.3 352.7 -873.1 283.7C-930.9 214.7 -924.4 107.3 -918 0L0 0Z" fill="#0372a6"/>
+            </g>
+        </svg>
+        <div class="principal">
+            <div>
+                <h1>Agende agora seu serviço de reparo para eletrodoméstico!</h1>
+                <p>Não perca mais tempo lidando com problemas em sua máquina de lavar, geladeira ou microondas. <br>
+                Agende agora mesmo um serviço de reparo com nossa equipe altamente qualificada e resolva esses problemas de maneira rápida e eficiente. Não deixe esses incovenientes prejudicarem sua rotina, contate-nos hoje mesmo.
+                </p>
+                <button>Agende aqui</button>
+            </div>
+            <div class="images">
+                <img src="resources/geladeira.png" alt="" class="geladeira">
+                <img src="resources/microondas.png" alt="" class="microondas">
+                <img src="resources/lava.png" alt="" class="lava">
+            </div>
+        </div>
+    
+        <div class="infos">
+            <div>
+                <span class="material-symbols-outlined">
+                    location_on
+                </span>
+                <p>Jardim londres, 101<br>Campinas</p>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    call
+                </span>
+                <p>(19) 9 888-8888</p>
+            </div>
+        </div>
+    
+        <div class="services">
+            <span>Serviços</span>
+            <h1>Máquina de lavar</h1>
+            <div class="four-carroussel">
+                <div class="image1 image"></div>
+                <div class="image2 image"></div>
+                <div class="conteudo">
+                    <p>Problemas comuns em máquinas de lavar incluem vazamentos de água, dificuldades em encher ou esvaziar a máquina, barulhos excessivos ou até mesmo falhas elétricas. Nossa equipe de profissionais experientes está pronta para lidar com qualquer um desses problemas e garantir que sua máquina de lavar volte a funcionar adequadamente em pouco tempo. Agende agora mesmo um serviço de reparo e volte a lavar suas roupas sem preocupações.</p>
+                    <button>Agendar</button>
+                </div>
+                <div class="image3 image"></div>
+                <div class="image4 image"></div>
+            </div>
+    
+            <div class="space"></div>
+    
+            <h1>Geladeira</h1>
+            <div class="three-carroussel">
+                <div class="image1 image"></div>
+                <div class="image2 image"></div>
+                <div class="image3 image"></div>
+                <div class="conteudo">
+                    <p>Se sua geladeira não está mantendo a temperatura correta, fazendo barulhos estranhos ou apresentando qualquer outro problema, não hesite em agendar um serviço de reparo com nossa equipe. Podemos lidar com vazamentos de água, problemas com as portas, compressor, termostato e outros problemas comuns em geladeiras. Não arrisque perder seus alimentos perecíveis ou sofrer com uma geladeira quebrada, contate-nos hoje mesmo.</p>
+                    <button>Agendar</button>
+                </div>
+            </div>
+    
+            <div class="space"></div>
+    
+            <h1>Microondas</h1>
+            <div class="three-carroussel right">
+                <div class="image1 image"></div>
+                <div class="image2 image"></div>
+                <div class="image3 image"></div>
+                <div class="conteudo">
+                    <p>Se seu microondas não está aquecendo adequadamente, não está ligando ou está apresentando outros problemas, nossa equipe de reparos pode ajudar. Podemos diagnosticar e resolver problemas comuns, como falhas no painel de controle, problemas com o magnetron ou o transformador, e outros. Não fique sem poder aquecer suas refeições, agende agora mesmo um serviço de reparo para seu microondas.</p>
+                    <button>Agendar</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="contact">
+            <span>Serviços</span>
+            <div class="whatsapp">
+                <p>Confira nossos serviços e <strong>agende pelo whatsapp.</strong></p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="rgb(122, 122, 122)" viewBox="0 0 32 32" width="128px" height="128px" fill-rule="evenodd"><path fill-rule="evenodd" d="M 24.503906 7.503906 C 22.246094 5.246094 19.246094 4 16.050781 4 C 9.464844 4 4.101563 9.359375 4.101563 15.945313 C 4.097656 18.050781 4.648438 20.105469 5.695313 21.917969 L 4 28.109375 L 10.335938 26.445313 C 12.078125 27.398438 14.046875 27.898438 16.046875 27.902344 L 16.050781 27.902344 C 22.636719 27.902344 27.996094 22.542969 28 15.953125 C 28 12.761719 26.757813 9.761719 24.503906 7.503906 Z M 16.050781 25.882813 L 16.046875 25.882813 C 14.265625 25.882813 12.515625 25.402344 10.992188 24.5 L 10.628906 24.285156 L 6.867188 25.269531 L 7.871094 21.605469 L 7.636719 21.230469 C 6.640625 19.648438 6.117188 17.820313 6.117188 15.945313 C 6.117188 10.472656 10.574219 6.019531 16.054688 6.019531 C 18.707031 6.019531 21.199219 7.054688 23.074219 8.929688 C 24.949219 10.808594 25.980469 13.300781 25.980469 15.953125 C 25.980469 21.429688 21.523438 25.882813 16.050781 25.882813 Z M 21.496094 18.445313 C 21.199219 18.296875 19.730469 17.574219 19.457031 17.476563 C 19.183594 17.375 18.984375 17.328125 18.785156 17.625 C 18.585938 17.925781 18.015625 18.597656 17.839844 18.796875 C 17.667969 18.992188 17.492188 19.019531 17.195313 18.871094 C 16.894531 18.722656 15.933594 18.40625 14.792969 17.386719 C 13.90625 16.597656 13.304688 15.617188 13.132813 15.320313 C 12.957031 15.019531 13.113281 14.859375 13.261719 14.710938 C 13.398438 14.578125 13.5625 14.363281 13.710938 14.1875 C 13.859375 14.015625 13.910156 13.890625 14.011719 13.691406 C 14.109375 13.492188 14.058594 13.316406 13.984375 13.167969 C 13.910156 13.019531 13.3125 11.546875 13.0625 10.949219 C 12.820313 10.367188 12.574219 10.449219 12.390625 10.4375 C 12.21875 10.429688 12.019531 10.429688 11.820313 10.429688 C 11.621094 10.429688 11.296875 10.503906 11.023438 10.804688 C 10.75 11.101563 9.980469 11.824219 9.980469 13.292969 C 9.980469 14.761719 11.050781 16.183594 11.199219 16.382813 C 11.347656 16.578125 13.304688 19.59375 16.300781 20.886719 C 17.011719 21.195313 17.566406 21.378906 18 21.515625 C 18.714844 21.742188 19.367188 21.710938 19.882813 21.636719 C 20.457031 21.550781 21.648438 20.914063 21.898438 20.214844 C 22.144531 19.519531 22.144531 18.921875 22.070313 18.796875 C 21.996094 18.671875 21.796875 18.597656 21.496094 18.445313 Z"/></svg>
+            </div>
+        </div>
+        
+    
+        <svg id="visual" viewBox="0 0 1920 1080" class="blob-2" width="1920" height="1080" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <g transform="translate(0, 1080)">
+                <path d="M0 -540C70.1 -533 140.2 -525.9 206.6 -498.9C273.1 -471.9 336 -424.8 365.6 -365.6C395.1 -306.3 391.3 -234.8 414.8 -171.8C438.3 -108.9 489.2 -54.4 540 0L0 0Z" fill="#0372a6"/>
+            </g>
+        </svg>
+    </main>
+</body>
+</html>
