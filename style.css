@@ -620,7 +620,21 @@ button{
         font-size: 20px;
     }
 }
-
+@media (max-width: 400px){
+    .images > .geladeira{
+        width: 120px;
+    }
+    .images > .microondas{
+        width: 170px;
+        left: 10px;
+    }
+    .images > .lava{
+        width: 230px;
+    }
+    .principal .images{
+        width: 70%;
+    }
+}
 
 
 
@@ -665,6 +679,52 @@ button{
     }
 }
 
+
+
+
+
+@media (max-width: 1200px){
+    .contact{
+        padding: 0 100px;
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 850px){
+    .contact{
+        padding: 0 50px;
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 675px){
+    .contact{
+        padding: 0 10px;
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 575px){
+    .contact{
+        width: 100vw;
+        padding: 0 10px;
+        padding-bottom: 50px;
+    }
+    .contact span{
+        padding: 0 50px;
+    }
+}
+@media (max-width: 450px){
+    .contact .whatsapp{
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr auto;
+        height: auto;
+
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        gap: 0;
+
+        padding: 50px;
+    }
+}
 
 
 
